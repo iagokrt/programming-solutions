@@ -31,7 +31,7 @@ lines.map((num) => {
     }
 
 });
-resultado = (somaPositivos/qtdPositivos).toFixed(2);
+resultado = (somaPositivos/qtdPositivos).toFixed(1);
 
 console.log(qtdPositivos + ' valores positivos');
 console.log(resultado);
