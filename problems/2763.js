@@ -18,10 +18,7 @@
 var input = require('fs').readFileSync('./dev/stdin', 'utf8');
 var lines = input.split('\n')[0];
 
-// console.log(lines);
-
 var numbers = lines.split('.');
-
 var code = numbers[2].split('-')
 
 console.log(numbers[0])
